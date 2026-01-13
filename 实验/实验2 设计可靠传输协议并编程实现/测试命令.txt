@@ -1,0 +1,11 @@
+.\receiver.exe 9000 helloworld.txt 32 --loss=0.03 --delay=5
+.\sender.exe 127.0.0.1 9000 helloworld.txt 32 --loss=0.03 --delay=5
+
+.\receiver.exe 9000 1.jpg 32 --loss=0.03 --delay=5
+.\sender.exe 127.0.0.1 9000 1.jpg 32 --loss=0.03 --delay=5
+
+.\receiver.exe 9000 2.jpg 32 --loss=0.03 --delay=5
+.\sender.exe 127.0.0.1 9000 2.jpg 32 --loss=0.03 --delay=5
+
+.\receiver.exe 9000 3.jpg 32 --loss=0.03 --delay=5
+.\sender.exe 127.0.0.1 9000 3.jpg 32 --loss=0.03
